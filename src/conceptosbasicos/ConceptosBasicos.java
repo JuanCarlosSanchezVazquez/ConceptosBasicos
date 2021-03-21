@@ -30,6 +30,20 @@ public class ConceptosBasicos { //Conceptos basicos es el cliente y hace uso de 
         // Tarea = programar los objetos miAkura y miMustang
         
         Automovil miAkura = new Automovil();
+        miAkura.setMarca("Akura");
+        miAkura.setSubMarca("NSX");
+        miAkura.setModelo(2013);
+        miAkura.setColor(Color.gray);
+        
+        System.out.println(miAkura);
+        
+        Automovil miMustang = new Automovil();
+        miMustang.setMarca("Ford");
+        miMustang.setSubMarca("Mustang");
+        miMustang.setModelo(2010);
+        miMustang.setColor(Color.yellow);
+        
+        System.out.println(miMustang);
         
     }
     

@@ -64,7 +64,7 @@ public class Automovil {
     }
 
     public void setColor(Color color) {
-        System.out.println("Metiendo al auto al taller de pintura"); // cambia la implementacion del metodo
+        //System.out.println("Metiendo al auto al taller de pintura"); // cambia la implementacion del metodo
         this.color = color;
     }
     
